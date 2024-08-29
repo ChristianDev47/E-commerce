@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "righteous";
+  src: url("/fonts/Righteous-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("/fonts/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "nunito";
+  src: url("/fonts/NunitoSans_7pt_Condensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "josefin";
+  src: url("/fonts/JosefinSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "nunito", -apple-system, sans-serif;
+}
+
+.titlePrincipal {
+  font-family: "roboto", -apple-system, sans-serif;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  display: block;
+  padding: 8px 12px;
+  border: 1px solid #afafaf;
+  border-radius: 4px;
+  color: #2b2a29;
+  text-decoration: none;
+}
+
+.page-link:hover {
+  background-color: #f0f0f0;
+  border-color: #2b2a29;
+}
+
+.page-item.active .page-link {
+  background-color: #2b2a29;
+  border-color: #2b2a29;
+  color: white;
+}
+
+.page-item.disabled .page-link {
+  color: #afafaf;
+  pointer-events: none;
+}
+
+.break-me {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid #afafaf;
+  border-radius: 4px;
+  color: #2b2a29;
+}
+
+.customShadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.owl-dots {
+  display: none;
+}
+
+.owlImages img {
+  display: inline !important;
+  width: auto !important;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4d4d4d;
+}

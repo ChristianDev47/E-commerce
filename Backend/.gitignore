@@ -1,0 +1,40 @@
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+media/
+.env
+
+# mypy
+.mypy_cache/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Environments
+venv/
+ENV/
+env/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Python virtual environments
+.env
