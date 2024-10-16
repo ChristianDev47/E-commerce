@@ -49,7 +49,7 @@ export const ProductProvider: React.FC<{ children: ReactNode }> = ({
       const newProducts = products.map((product: Product) => {
         return {
           ...product,
-          images: [...product.images].reverse(),
+          images: [...product.images]
         };
       });
       setProducts(newProducts);
